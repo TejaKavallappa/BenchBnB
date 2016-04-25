@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>BeachBnB</title>
+  <%= javascript_include_tag 'application' %>
+  <%= stylesheet_link_tag    'application', media: 'all' %>
+  <%= csrf_meta_tags %>
+  <!-- <script src="https://maps.googleapis.com/maps/api/js" charset="utf-8"></script> -->
+</head>
+<body>
+
+<%= yield %>
+<script
+  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDReBC-pacc4KYobydEgoTFmV6f9P3QqR0">
+</script>
+
+</body>
+</html>
